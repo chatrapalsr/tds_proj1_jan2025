@@ -84,11 +84,10 @@ def ask(prompt: str):
     return result
 
 openai_api_chat  = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions" # for testing
-openai_api_key = os.getenv("AIPROXY_TOKEN")
+openai_api_key = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDIxNTJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.I3--wnc-jmv5Z_ulUcs0no4GkbvSUqmTySZImIS5jKY")
 
 headers = {
     "Authorization": f"Bearer {openai_api_key}",
-    "Content-Type": "application/json",
 }
 
 function_definitions_llm = [

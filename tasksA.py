@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AIPROXY_TOKEN = os.getenv('AIPROXY_TOKEN')
+AIPROXY_TOKEN = os.getenv('eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDIxNTJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.I3--wnc-jmv5Z_ulUcs0no4GkbvSUqmTySZImIS5jKY')
 
 
 def A1(email="22f3002152@ds.study.iitm.ac.in"):
