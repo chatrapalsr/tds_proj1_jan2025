@@ -31,7 +31,7 @@ from datagen import (
 
 
 openai_api_base = os.getenv("OPENAI_API_BASE", "https://aiproxy.sanand.workers.dev/openai/v1")
-openai_api_key = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDIxNTJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.I3--wnc-jmv5Z_ulUcs0no4GkbvSUqmTySZImIS5jKY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 def num(str):
